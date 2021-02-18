@@ -1,0 +1,64 @@
+Ölçüsü məhdudlaşdırılmamış stek
+stek verilənlər strukturunu reallaşdırın. Elə proqram yazın ki, stekin təsvirini versin və burada verilən bütün metodları reallaşdıraraq stekin işini modelləşdirsin. Proqram ardıcıl əmrləri oxuyur və əmrdən asılı olaraq bu və ya digər əməliyyatı aparır. Hər bir əmrin icrasından sonra proqram bir sətir verməlidir. Proqram üçün mümkün əmrlər:
+
+push n
+
+n ədədini stekə əlavə etmək (n-nin qiyməti əmrdən sonra verilir). Proqram ok verməlidir.
+
+pop
+
+Stekdən sonuncu elementi silmək. Proqram onun qiymətini verməlidir.
+
+back
+
+Proqram sonuncu elementi silmədən verməlidir.
+
+size
+
+Proqram stekdəki elementlərin sayını verməlidir.
+
+clear
+
+Proqram steki təmizləməli və ok verməlidir.
+
+exit
+
+Proqram bye verməli və işini tamamlamalıdır.
+
+back və pop əmrləri icra olunmazdan əvvəl proqram stekdə heç olmazsa bir elementin olub olmadığını yoxlamalıdır. Əgər giriş verilənlərində back və ya pop verilərsə və bu zaman stek boş olarsa, onda proqram error sətrini verməlidir.
+
+Giriş verilənləri
+
+Şərtdə şərh olunur. Giriş verilənləri nümunəsinə də baxın.
+
+Çıxış verilənləri
+
+Şərtə verilir. Çıxış verilənləri nümunəsinə də baxın.
+
+Giriş verilənləri #1
+push 2
+push 3
+push 5
+back
+size
+pop
+size
+push 7
+pop
+clear
+size
+exit
+Çıxış verilənləri #1
+ok
+ok
+ok
+5
+3
+5
+2
+ok
+7
+ok
+0
+bye
+Şərh: Stekin ölçüsü əməli yaddaşın mümkün ölçüsü ilə məhdudlaşmalıdır.
